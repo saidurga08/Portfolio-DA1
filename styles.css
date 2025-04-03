@@ -18,3 +18,22 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+
+.options {
+  list-style: none;
+  display: flex;
+}
+
+.options li {
+  margin-left: 20px;
+}
+
+.options a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.options a:hover {
+  color: #b689dd;
+}
