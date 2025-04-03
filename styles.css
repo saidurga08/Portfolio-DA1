@@ -58,3 +58,24 @@ body {
 .experience:hover {
   transform: scale(1.02);
 }
+
+.skillsclass {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  padding: 20px;
+  background: #936bb3;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+  cursor: pointer;
+  background: #2d0154;
+  transform: scale(1.1);
+}
