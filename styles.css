@@ -30,10 +30,31 @@ body {
 
 .options a {
   color: white;
+  font-size: 20px;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
 }
 
 .options a:hover {
   color: #b689dd;
+  text-decoration: underline;
+}
+
+.content,
+.skills,
+.experience {
+  padding: 50px;
+  text-align: center;
+  background: white;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.content:hover,
+.skills:hover,
+.experience:hover {
+  transform: scale(1.02);
 }
