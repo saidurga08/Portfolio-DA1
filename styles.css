@@ -79,3 +79,11 @@ body {
   background: #2d0154;
   transform: scale(1.1);
 }
+
+.footer {
+  background-color: #2d0154;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
